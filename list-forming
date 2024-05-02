@@ -89,7 +89,7 @@ void * producer_thread( void *arg)
                     break;
                 }
             }           
-        }:wq
+        }
         ++counter;
     }
 }
